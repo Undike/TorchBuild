@@ -1,0 +1,268 @@
+﻿{
+  "heroes": [
+    {
+      "name": "Berserker|Rehan",
+      "subClasses": [
+        {
+          "name": "Anger",
+          "imagePath": "Assets/Heroes/Anger.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Anger" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Righteous Fury", "Frenzy Furious" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Tunnel Vision" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Rampaging", "Uncontrolled Anger" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Berserker|Rehan",
+      "subClasses": [
+        {
+          "name": "Seething Silhouette",
+          "imagePath": "TorchBuild/Assets/Heroes/Seething Silhouette.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Seething Silhouette" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Ritual of Offering", "Fury's Onslaught" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Hysteria", "Growing Anger" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Split Form", "Rage Infusion" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Divineshot|Carino",
+      "subClasses": [
+        {
+          "name": "Ranger of Glory",
+          "imagePath": "TorchBuild/Assets/Heroes/Ranger of Glory.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Ranger of Glory" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Ammo Expert" ],
+              "passiveSkillSlotCount": 2
+            },
+            {
+              "slot": 3,
+              "choices": [ "Landslide", "Crushing Gale Trigger" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Never Stopping", "Well Prepared" ],
+              "passiveSkillSlotCount": 1
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Divineshot|Carino",
+      "subClasses": [
+        {
+          "name": "Lethal Flash",
+          "imagePath": "TorchBuild/Assets/Heroes/Lethal Flash.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Lethal Flash" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Shadow Magazine", "Dart Shot" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Evil Ouroboros", "Lethal Interval" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Malice Charge", "Desperate Measure" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Divineshot|Carino",
+      "subClasses": [
+        {
+          "name": "Zealot of War",
+          "imagePath": "TorchBuild/Assets/Heroes/Zealot of War.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Zealot of War" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Incinerated Glory" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Ceasefire", "Extreme Heat" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Endless Frenzy", "Eternal Flames" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Cateye|Erika",
+      "subClasses": [
+        {
+          "name": "Wind Stalker",
+          "imagePath": "TorchBuild/Assets/Heroes/Wind Stalker.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Wind Stalker" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Interest", "Have Fun" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Cat's Vision", "Cat's Scratch" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Cat's Punches", "Cat Dive" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Cateye|Erika",
+      "subClasses": [
+        {
+          "name": "Lightning Shadow",
+          "imagePath": "TorchBuild/Assets/Heroes/Lightning Shadow.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Lightning Shadow" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Dazzling Lightning", "Electroplated Motif" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Wild Lightning" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Swift as Lightning", "Charging Equation" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    }
+    {
+      "name": "Escapist|Pin",
+      "subClasses": [
+        {
+          "name": "Blast Nova",
+          "imagePath": "TorchBuild/Assets/Heroes/Blast Nova.bmp",
+          "heroSkillSlots": 4,
+          "uniqueSkills": [
+            {
+              "slot": 1,
+              "choices": [ "Blast Nova" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 2,
+              "choices": [ "Firepower Coverage", "Dangerous Runaway" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 3,
+              "choices": [ "Blast Barrage", "Phantom Delivery" ],
+              "passiveSkillSlotCount": 0
+            },
+            {
+              "slot": 4,
+              "choices": [ "Radiation Effect", "Frenzy Hound" ],
+              "passiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+
+  ]
+}
