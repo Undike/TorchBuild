@@ -10,16 +10,16 @@
     public class SubClass
     {
         public string Name { get; set; }
-        public string ImageUrl { get; set; }
-        public int HeroSkillSlots { get; set; }
-        public List<SkillSlot> UniqueSkills { get; set; }
+        public string ImagePath { get; set; }
+        public int HeroPassiveSkillSlots { get; set; }
+        public List<HeroSkillSlot> UniqueHeroPassiveSkills { get; set; }
 
     }
 
-    public class SkillSlot
+    public class HeroSkillSlot
     {
         public int Slot { get; set; }
-        public List<string> HeroSkillChoices { get; set; }
-        public int PassiveSkillSlotCount { get; set; }
+        public List<string> HeroPassiveSkillChoices { get; set; }
+        public int HeroPassiveSkillSlotCount { get; set; }
     }
 }

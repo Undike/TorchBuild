@@ -1,0 +1,143 @@
+﻿{
+  "Name": "Ice Shot",
+  "SkillType": "Active Skill",
+  "ManaCost": 5,
+  "CastSpeed": 1.0,
+  "MainStat": [ "Dexterity" ],
+  "WeaponRestrictions": [ "Bows", "Crossbows", "Firearms", "Cannons" ],
+  "SkillTags": [ "Cold", "Projectile", "Attack", "Ranged", "Area", "Horizontal", "Demolisher" ],
+  "Levels": {
+    "20": {
+      "EffectivenessOfAddedDamage": "302%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 151% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "21": {
+      "EffectivenessOfAddedDamage": "338%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 169% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "22": {
+      "EffectivenessOfAddedDamage": "379%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 189% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "23": {
+      "EffectivenessOfAddedDamage": "424%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 212% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "24": {
+      "EffectivenessOfAddedDamage": "475%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 238% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "25": {
+      "EffectivenessOfAddedDamage": "532%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 266% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "26": {
+      "EffectivenessOfAddedDamage": "596%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 298% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "27": {
+      "EffectivenessOfAddedDamage": "668%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 334% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "28": {
+      "EffectivenessOfAddedDamage": "748%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 374% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "29": {
+      "EffectivenessOfAddedDamage": "838%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 419% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    },
+    "30": {
+      "EffectivenessOfAddedDamage": "938%",
+      "Description": "Casts the skill and fires 1 Ice Lance forward.",
+      "BuffEffects": {
+        "ExplosionDamage": "Deals 469% Weapon Attack Damage",
+        "FiresProjectile": "Fires 1 Projectile in its base state",
+        "ConvertPhysicalToCold": "Converts 100% of the skill's Physical Damage to Cold Damage",
+        "InflictFrostbite": "Inflicts Frostbite and 100 Frostbite Rating on hit",
+        "Cooldown": "Cooldown for the same enemy: 10",
+        "ChanceToFrostbite": "+100% chance to Frostbite enemies"
+      }
+    }
+  }
+}

@@ -1,32 +1,32 @@
 ﻿{
   "heroes": [
     {
-      "name": "Berserker|Rehan",
-      "subClasses": [
+      "Name": "Berserker|Rehan",
+      "SubClasses": [
         {
-          "name": "Anger",
-          "imagePath": "Assets/Heroes/Anger.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Anger",
+          "ImagePath": "Assets/Heroes/Anger.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Anger" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Anger" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Righteous Fury", "Frenzy Furious" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Righteous Fury", "Frenzy Furious" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Tunnel Vision" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Tunnel Vision" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Rampaging", "Uncontrolled Anger" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Rampaging", "Uncontrolled Anger" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
@@ -34,32 +34,32 @@
     },
 
     {
-      "name": "Berserker|Rehan",
-      "subClasses": [
+      "Name": "Berserker|Rehan",
+      "SubClasses": [
         {
-          "name": "Seething Silhouette",
-          "imagePath": "TorchBuild/Assets/Heroes/Seething Silhouette.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Seething Silhouette",
+          "ImagePath": "Assets/Heroes/Seething_Silhouette.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Seething Silhouette" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Seething Silhouette" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Ritual of Offering", "Fury's Onslaught" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Ritual of Offering", "Fury's Onslaught" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Hysteria", "Growing Anger" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Hysteria", "Growing Anger" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Split Form", "Rage Infusion" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Split Form", "Rage Infusion" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
@@ -67,32 +67,32 @@
     },
 
     {
-      "name": "Divineshot|Carino",
-      "subClasses": [
+      "Name": "Divineshot|Carino",
+      "SubClasses": [
         {
-          "name": "Ranger of Glory",
-          "imagePath": "TorchBuild/Assets/Heroes/Ranger of Glory.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Ranger of Glory",
+          "ImagePath": "Assets/Heroes/Ranger_of_Glory.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Ranger of Glory" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Ranger of Glory" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Ammo Expert" ],
-              "passiveSkillSlotCount": 2
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Ammo Expert" ],
+              "HeroPassiveSkillSlotCount": 2
             },
             {
-              "slot": 3,
-              "choices": [ "Landslide", "Crushing Gale Trigger" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Landslide", "Crushing Gale Trigger" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Never Stopping", "Well Prepared" ],
-              "passiveSkillSlotCount": 1
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Never Stopping", "Well Prepared" ],
+              "HeroPassiveSkillSlotCount": 1
             }
           ]
         }
@@ -100,32 +100,32 @@
     },
 
     {
-      "name": "Divineshot|Carino",
-      "subClasses": [
+      "Name": "Divineshot|Carino",
+      "SubClasses": [
         {
-          "name": "Lethal Flash",
-          "imagePath": "TorchBuild/Assets/Heroes/Lethal Flash.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Lethal Flash",
+          "ImagePath": "Assets/Heroes/Lethal_Flash.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Lethal Flash" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Lethal Flash" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Shadow Magazine", "Dart Shot" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Shadow Magazine", "Dart Shot" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Evil Ouroboros", "Lethal Interval" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Evil Ouroboros", "Lethal Interval" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Malice Charge", "Desperate Measure" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Malice Charge", "Desperate Measure" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
@@ -133,32 +133,32 @@
     },
 
     {
-      "name": "Divineshot|Carino",
-      "subClasses": [
+      "Name": "Divineshot|Carino",
+      "SubClasses": [
         {
-          "name": "Zealot of War",
-          "imagePath": "TorchBuild/Assets/Heroes/Zealot of War.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Zealot of War",
+          "ImagePath": "Assets/Heroes/Zealot_of_War.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Zealot of War" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Zealot of War" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Incinerated Glory" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Incinerated Glory" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Ceasefire", "Extreme Heat" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Ceasefire", "Extreme Heat" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Endless Frenzy", "Eternal Flames" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Endless Frenzy", "Eternal Flames" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
@@ -166,32 +166,32 @@
     },
 
     {
-      "name": "Cateye|Erika",
-      "subClasses": [
+      "Name": "Cateye|Erika",
+      "SubClasses": [
         {
-          "name": "Wind Stalker",
-          "imagePath": "TorchBuild/Assets/Heroes/Wind Stalker.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Wind Stalker",
+          "ImagePath": "Assets/Heroes/Wind_Stalker.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Wind Stalker" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Wind Stalker" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Interest", "Have Fun" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Interest", "Have Fun" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Cat's Vision", "Cat's Scratch" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Cat's Vision", "Cat's Scratch" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Cat's Punches", "Cat Dive" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Cat's Punches", "Cat Dive" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
@@ -199,70 +199,531 @@
     },
 
     {
-      "name": "Cateye|Erika",
-      "subClasses": [
+      "Name": "Cateye|Erika",
+      "SubClasses": [
         {
-          "name": "Lightning Shadow",
-          "imagePath": "TorchBuild/Assets/Heroes/Lightning Shadow.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
+          "Name": "Lightning Shadow",
+          "ImagePath": "Assets/Heroes/Lightning_Shadow.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
             {
-              "slot": 1,
-              "choices": [ "Lightning Shadow" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Lightning Shadow" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 2,
-              "choices": [ "Dazzling Lightning", "Electroplated Motif" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Dazzling Lightning", "Electroplated Motif" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 3,
-              "choices": [ "Wild Lightning" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Wild Lightning" ],
+              "HeroPassiveSkillSlotCount": 0
             },
             {
-              "slot": 4,
-              "choices": [ "Swift as Lightning", "Charging Equation" ],
-              "passiveSkillSlotCount": 0
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Swift as Lightning", "Charging Equation" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Escapist|Pin",
+      "SubClasses": [
+        {
+          "Name": "Blast Nova",
+          "ImagePath": "Assets/Heroes/Blast_Nova.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Blast Nova" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Firepower Coverage", "Dangerous Runaway" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Blast Barrage", "Phantom Delivery" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Radiation Effect", "Frenzy Hound" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Frostfire|Gemma",
+      "SubClasses": [
+        {
+          "Name": "Flame of Pleasure",
+          "ImagePath": "Assets/Heroes/Flame_of_Pleasure.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Flame of Pleasure" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Groaning Echo" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Flames of Desire", "Infernal Damnation" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Banquet of Bliss", "Dress Licker" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Frostfire|Gemma",
+      "SubClasses": [
+        {
+          "Name": "Frostbitten Heart",
+          "ImagePath": "Assets/Heroes/Frostbitten_Heart.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Frostbitten Heart" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Frost Tides" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Glacial Night", "Wintry Slumber" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Frigid Infusion", "Blooming Frost Flower" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Frostfire|Gemma",
+      "SubClasses": [
+        {
+          "Name": "Ice-Fire Fusion",
+          "ImagePath": "Assets/Heroes/Ice-Fire_Fusion.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Ice-Fire Fusion" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Ice-Fire Embrace" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Restless Ice-Fire", "Ice-Fire Radiance" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Bone-piercing Heat", "Ice to Blaze" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Oracle | Thea",
+      "SubClasses": [
+        {
+          "Name": "Wisdom of The Gods",
+          "ImagePath": "Assets/Heroes/Wisdom_of_The_Gods.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Wisdom of The Gods" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Predicted Harvest", "Finale Prophecy" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Predicted Reincarnation", "Predicted Hope" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Farewell Prophecy", "Predicted Justice" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Oracle | Thea",
+      "SubClasses": [
+        {
+          "Name": "Incarnation of the Gods",
+          "ImagePath": "Assets/Heroes/Incarnation_of_the_Gods.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Incarnation of the Gods" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Divinity" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Might Flow", "Divine Realm Power" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Incarnation", "Divine Spirit" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Oracle | Thea",
+      "SubClasses": [
+        {
+          "Name": "Blasphemer",
+          "ImagePath": "Assets/Heroes/Blasphemer.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Blasphemer" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Unholy Baptism" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Disgraced Minister", "Tarnished Sage" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Onset of Depravity", "Extreme Desecration" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Spacetime Witness|Youga",
+      "SubClasses": [
+        {
+          "Name": "Spacetime Illusion",
+          "ImagePath": "Assets/Heroes/Spacetime_Illusion.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Spacetime Illusion" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Me and Myself" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Make it Quick", "Eeeendless Mana" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "I'm an Illusion", "I'm Out of Mana" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Spacetime Witness|Youga",
+      "SubClasses": [
+        {
+          "Name": "Spacetime Elapse",
+          "ImagePath": "Assets/Heroes/Spacetime_Elapse.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Spacetime Elapse" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Spacetime Speed-up", "Spacetime Upheaval" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Spacetime Cutting" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Spacetime Pause", "Spacetime Expansion" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Commander|Moto",
+      "SubClasses": [
+        {
+          "Name": "Order Calling",
+          "ImagePath": "Assets/Heroes/Order_Calling.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Order Calling" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Veteran", "All In" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Tough as Nails", "Last Stand" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Charge Forward", "Go for Broke" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Commander|Moto",
+      "SubClasses": [
+        {
+          "Name": "Charge Calling",
+          "ImagePath": "Assets/Heroes/Charge_Calling.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Charge Calling" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Unstoppable Wave" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Heroic Sacrifice", "Guerilla Tactics" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Fuel War with War", "Essential Speed" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Lightbringer|Rosa",
+      "SubClasses": [
+        {
+          "Name": "High Court Chariot",
+          "ImagePath": "Assets/Heroes/High_Court_Chariot.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "High Court Chariot" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Unbreakable Stand", "Whirlwind Advance" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Invulnerability", "Divine Intervention" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Desperation", "Improvision" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "The Forsaken|Iris",
+      "SubClasses": [
+        {
+          "Name": "Growing Breeze",
+          "ImagePath": "Assets/Heroes/Growing_Breeze.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Growing Breeze" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Embrace the World", "Struggle Free" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Socialite", "Amazing Friends" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Run With the Wind", "Grow With It" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "The Forsaken|Iris",
+      "SubClasses": [
+        {
+          "Name": "Vigilant Breeze",
+          "ImagePath": "Assets/Heroes/Vigilant_Breeze.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Vigilant Breeze" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Whirlwind Tango", "Breeze's Whisper" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Happiest Reunion", "Warmest Vigilance" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Merging Stream", "Nurturing Breeze" ],
+              "HeroPassiveSkillSlotCount": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Name": "Tide Whisper|Selena",
+      "SubClasses": [
+        {
+          "Name": "Sing with the Tide",
+          "ImagePath": "Assets/Heroes/Sing_with_the_Tide.bmp",
+          "HeroPassiveSkillSlots": 4,
+          "UniqueHeroPassiveSkills": [
+            {
+              "Slot": 1,
+              "HeroPassiveSkillChoices": [ "Sing with the Tide" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 2,
+              "HeroPassiveSkillChoices": [ "Undersea Ballad", "Wave Aria" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 3,
+              "HeroPassiveSkillChoices": [ "Sea Foam Nocturne", "Idyll of the Tide" ],
+              "HeroPassiveSkillSlotCount": 0
+            },
+            {
+              "Slot": 4,
+              "HeroPassiveSkillChoices": [ "Chantey of Sinking", "Murmurs of the Distant Tide" ],
+              "HeroPassiveSkillSlotCount": 0
             }
           ]
         }
       ]
     }
-    {
-      "name": "Escapist|Pin",
-      "subClasses": [
-        {
-          "name": "Blast Nova",
-          "imagePath": "TorchBuild/Assets/Heroes/Blast Nova.bmp",
-          "heroSkillSlots": 4,
-          "uniqueSkills": [
-            {
-              "slot": 1,
-              "choices": [ "Blast Nova" ],
-              "passiveSkillSlotCount": 0
-            },
-            {
-              "slot": 2,
-              "choices": [ "Firepower Coverage", "Dangerous Runaway" ],
-              "passiveSkillSlotCount": 0
-            },
-            {
-              "slot": 3,
-              "choices": [ "Blast Barrage", "Phantom Delivery" ],
-              "passiveSkillSlotCount": 0
-            },
-            {
-              "slot": 4,
-              "choices": [ "Radiation Effect", "Frenzy Hound" ],
-              "passiveSkillSlotCount": 0
-            }
-          ]
-        }
-      ]
-    },
-
-
   ]
 }

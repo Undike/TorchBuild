@@ -1,0 +1,132 @@
+﻿{
+  "Name": "Leap Attack",
+  "SkillType": "Active Skill",
+  "ManaCost": 5,
+  "CastSpeed": 1.0,
+  "MainStat": [ "Strength" ],
+  "WeaponRestrictions": [ "Unarmed", "Swords", "Axes", "Hammers", "Cudgels", "Tin Staffs" ],
+  "SkillTags": [ "Mobility", "Attack", "Melee", "Physical", "Demolisher", "Area" ],
+  "Levels": {
+    "20": {
+      "EffectivenessOfAddedDamage": "228%",
+      "Damage": "Deals 228.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 228% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+20% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "21": {
+      "EffectivenessOfAddedDamage": "255%",
+      "Damage": "Deals 255.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 255% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+20.5% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "22": {
+      "EffectivenessOfAddedDamage": "286%",
+      "Damage": "Deals 286.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 286% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+21% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "23": {
+      "EffectivenessOfAddedDamage": "320%",
+      "Damage": "Deals 320.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 320% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+21.5% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "24": {
+      "EffectivenessOfAddedDamage": "358%",
+      "Damage": "Deals 358.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 358% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+22% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "25": {
+      "EffectivenessOfAddedDamage": "401%",
+      "Damage": "Deals 401.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 401% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+22.5% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "26": {
+      "EffectivenessOfAddedDamage": "450%",
+      "Damage": "Deals 450.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 450% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+23% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "27": {
+      "EffectivenessOfAddedDamage": "504%",
+      "Damage": "Deals 504.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 504% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+23.5% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "28": {
+      "EffectivenessOfAddedDamage": "564%",
+      "Damage": "Deals 564.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 564% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+24% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "29": {
+      "EffectivenessOfAddedDamage": "632%",
+      "Damage": "Deals 632.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 632% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+24.5% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    },
+    "30": {
+      "EffectivenessOfAddedDamage": "708%",
+      "Damage": "Deals 708.0% weapon Attack Damage",
+      "Description": "Leap Attack: Deals 708% Weapon Attack Damage.",
+      "BuffEffects": {
+        "DemolisherChargeGain": "Gains Demolisher Charge every 4s",
+        "BonusPerEnemyHit": "+25% damage to the skill per bonus gained",
+        "SkillAreaBonus": "+10% Skill Area per bonus gained",
+        "AilmentPenalty": "-60% additional Ailment Damage"
+      }
+    }
+  }
+}

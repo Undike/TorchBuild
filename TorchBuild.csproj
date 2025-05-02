@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Assets\Heroes\" />
+    <Folder Include="Assets\Skills\" />
   </ItemGroup>
 
 </Project>
