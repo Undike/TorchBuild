@@ -1,10 +1,13 @@
-﻿namespace TorchBuild.Models.Skills
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TorchBuild.Models.Skills
 {
-    public abstract class Skill
+    public class Skill
     {
-        public string Name { get; set; }
-        public string ImagePath { get; set; }
-        public string Description { get; set; }
-        public List<string> SkillTags { get; set; }
+        //TODO
     }
 }

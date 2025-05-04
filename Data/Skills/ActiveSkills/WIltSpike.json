@@ -1,0 +1,21 @@
+﻿{
+  "Name": "Wilt Spike",
+  "Tags": [ "Attack", "Melee", "Shadow Strike", "Erosion", "Area", "Persistent" ],
+  "WeaponLimit": [ "One-Handed Swords", "Claws", "Daggers" ],
+  "MainStat": "Dexterity",
+  "ManaCost": 5,
+  "CastSpeed": "1 s",
+  "Levels": {
+    "20": { "EffectivenessOfAddedDamage": 201 },
+    "21": { "EffectivenessOfAddedDamage": 220 },
+    "22": { "EffectivenessOfAddedDamage": 240 },
+    "23": { "EffectivenessOfAddedDamage": 265 },
+    "24": { "EffectivenessOfAddedDamage": 290 },
+    "25": { "EffectivenessOfAddedDamage": 315 },
+    "26": { "EffectivenessOfAddedDamage": 340 },
+    "27": { "EffectivenessOfAddedDamage": 370 },
+    "28": { "EffectivenessOfAddedDamage": 400 },
+    "29": { "EffectivenessOfAddedDamage": 430 },
+    "30": { "EffectivenessOfAddedDamage": 460 }
+  }
+}

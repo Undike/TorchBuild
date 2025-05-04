@@ -2,7 +2,7 @@
 
 namespace TorchBuild.Models.Stats
 {
-    public class AttackDamageStats
+    public class AttackDamageValueStats
     {
         public int AttackDPS { get; set; }
         public int PhysicalDamage { get; set; }

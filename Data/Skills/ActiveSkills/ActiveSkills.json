@@ -1,0 +1,645 @@
+﻿{
+  "ActiveSkills": [
+
+    {
+      "Name": "Leap Attack",
+      "Tags": [ "Mobility", "Attack", "Melee", "Physical", "Demolisher", "Area" ],
+      "WeaponLimit": [ "Unarmed", "Swords", "Axes", "Hammers", "Cudgels", "Tin Staffs" ],
+      "MainStat": "Strength",
+      "ManaCost": 2,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 228 },
+        "21": { "EffectivenessOfAddedDamage": 250 },
+        "22": { "EffectivenessOfAddedDamage": 275 },
+        "23": { "EffectivenessOfAddedDamage": 300 },
+        "24": { "EffectivenessOfAddedDamage": 325 },
+        "25": { "EffectivenessOfAddedDamage": 350 },
+        "26": { "EffectivenessOfAddedDamage": 380 },
+        "27": { "EffectivenessOfAddedDamage": 410 },
+        "28": { "EffectivenessOfAddedDamage": 440 },
+        "29": { "EffectivenessOfAddedDamage": 470 },
+        "30": { "EffectivenessOfAddedDamage": 500 }
+      }
+    },
+
+    {
+      "Name": "Ice Shot",
+      "Tags": [ "Cold", "Projectile", "Attack", "Ranged", "Area", "Horizontal" ],
+      "WeaponLimit": [ "Bows", "Crossbows", "Firearms", "Cannons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 302 },
+        "21": { "EffectivenessOfAddedDamage": 338 },
+        "22": { "EffectivenessOfAddedDamage": 379 },
+        "23": { "EffectivenessOfAddedDamage": 424 },
+        "24": { "EffectivenessOfAddedDamage": 475 },
+        "25": { "EffectivenessOfAddedDamage": 532 },
+        "26": { "EffectivenessOfAddedDamage": 596 },
+        "27": { "EffectivenessOfAddedDamage": 668 },
+        "28": { "EffectivenessOfAddedDamage": 748 },
+        "29": { "EffectivenessOfAddedDamage": 838 },
+        "30": { "EffectivenessOfAddedDamage": 938 }
+      }
+    },
+
+    {
+      "Name": "Hammer of Ash",
+      "Tags": [ "Attack", "Melee", "Fire", "Projectile", "Area", "Demolisher", "Horizontal" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers", "Cudgels", "Tin Staffs", "Unarmed" ],
+      "MainStat": "Strength",
+      "ManaCost": 5,
+      "CastSpeed": "0.2 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 369 },
+        "21": { "EffectivenessOfAddedDamage": 390 },
+        "22": { "EffectivenessOfAddedDamage": 415 },
+        "23": { "EffectivenessOfAddedDamage": 440 },
+        "24": { "EffectivenessOfAddedDamage": 465 },
+        "25": { "EffectivenessOfAddedDamage": 490 },
+        "26": { "EffectivenessOfAddedDamage": 520 },
+        "27": { "EffectivenessOfAddedDamage": 550 },
+        "28": { "EffectivenessOfAddedDamage": 580 },
+        "29": { "EffectivenessOfAddedDamage": 610 },
+        "30": { "EffectivenessOfAddedDamage": 640 }
+      }
+    },
+
+    {
+      "Name": "Chromatic Shot",
+      "Tags": [ "Spell", "Projectile", "Cold", "Erosion", "Fire", "Lightning", "Physical", "Horizontal" ],
+      "WeaponLimit": [],
+      "MainStat": [ "Strength", "Dexterity", "Intelligence" ],
+      "ManaCost": 8,
+      "CastSpeed": "0.65 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 112 },
+        "21": { "EffectivenessOfAddedDamage": 126 },
+        "22": { "EffectivenessOfAddedDamage": 141 },
+        "23": { "EffectivenessOfAddedDamage": 158 },
+        "24": { "EffectivenessOfAddedDamage": 177 },
+        "25": { "EffectivenessOfAddedDamage": 198 },
+        "26": { "EffectivenessOfAddedDamage": 222 },
+        "27": { "EffectivenessOfAddedDamage": 248 },
+        "28": { "EffectivenessOfAddedDamage": 278 },
+        "29": { "EffectivenessOfAddedDamage": 312 },
+        "30": { "EffectivenessOfAddedDamage": 349 }
+      }
+    },
+
+    {
+      "Name": "Whirlwind",
+      "Tags": [ "Attack", "Melee", "Area", "Channeled", "Physical", "Slash-Strike" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers", "Cudgels", "Tin Staffs" ],
+      "MainStat": [ "Strength", "Dexterity" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 83 },
+        "21": { "EffectivenessOfAddedDamage": 92 },
+        "22": { "EffectivenessOfAddedDamage": 104 },
+        "23": { "EffectivenessOfAddedDamage": 116 },
+        "24": { "EffectivenessOfAddedDamage": 130 },
+        "25": { "EffectivenessOfAddedDamage": 146 },
+        "26": { "EffectivenessOfAddedDamage": 163 },
+        "27": { "EffectivenessOfAddedDamage": 183 },
+        "28": { "EffectivenessOfAddedDamage": 204 },
+        "29": { "EffectivenessOfAddedDamage": 229 },
+        "30": { "EffectivenessOfAddedDamage": 256 }
+      }
+    },
+
+    {
+      "Name": "Focused Slash",
+      "Tags": [ "Attack", "Melee", "Area", "Physical", "Slash-Strike" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers" ],
+      "MainStat": [ "Strength", "Dexterity" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 154 },
+        "21": { "EffectivenessOfAddedDamage": 172 },
+        "22": { "EffectivenessOfAddedDamage": 193 },
+        "23": { "EffectivenessOfAddedDamage": 216 },
+        "24": { "EffectivenessOfAddedDamage": 242 },
+        "25": { "EffectivenessOfAddedDamage": 271 },
+        "26": { "EffectivenessOfAddedDamage": 304 },
+        "27": { "EffectivenessOfAddedDamage": 340 },
+        "28": { "EffectivenessOfAddedDamage": 381 },
+        "29": { "EffectivenessOfAddedDamage": 427 },
+        "30": { "EffectivenessOfAddedDamage": 478 }
+      }
+    },
+
+    {
+      "Name": "Thundercloud",
+      "Tags": [ "Spell", "Persistent", "Lightning", "Channeled", "Area", "Chain" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.333 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 67 },
+        "21": { "EffectivenessOfAddedDamage": 75 },
+        "22": { "EffectivenessOfAddedDamage": 83 },
+        "23": { "EffectivenessOfAddedDamage": 93 },
+        "24": { "EffectivenessOfAddedDamage": 105 },
+        "25": { "EffectivenessOfAddedDamage": 117 },
+        "26": { "EffectivenessOfAddedDamage": 131 },
+        "27": { "EffectivenessOfAddedDamage": 147 },
+        "28": { "EffectivenessOfAddedDamage": 165 },
+        "29": { "EffectivenessOfAddedDamage": 184 },
+        "30": { "EffectivenessOfAddedDamage": 207 }
+      }
+    },
+
+    {
+      "Name": "Bombard",
+      "Tags": [ "Attack", "Projectile", "Area", "Fire", "Ranged", "Parabolic" ],
+      "WeaponLimit": [ "Cannons" ],
+      "MainStat": "Strength",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 41 },
+        "21": { "EffectivenessOfAddedDamage": 46 },
+        "22": { "EffectivenessOfAddedDamage": 52 },
+        "23": { "EffectivenessOfAddedDamage": 58 },
+        "24": { "EffectivenessOfAddedDamage": 65 },
+        "25": { "EffectivenessOfAddedDamage": 73 },
+        "26": { "EffectivenessOfAddedDamage": 82 },
+        "27": { "EffectivenessOfAddedDamage": 92 },
+        "28": { "EffectivenessOfAddedDamage": 103 },
+        "29": { "EffectivenessOfAddedDamage": 115 },
+        "30": { "EffectivenessOfAddedDamage": 129 }
+      }
+    },
+
+    {
+      "Name": "Shadow Shot",
+      "Tags": [ "Spell", "Erosion", "Area", "Projectile", "Horizontal" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.65 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 131 },
+        "21": { "EffectivenessOfAddedDamage": 146 },
+        "22": { "EffectivenessOfAddedDamage": 164 },
+        "23": { "EffectivenessOfAddedDamage": 183 },
+        "24": { "EffectivenessOfAddedDamage": 205 },
+        "25": { "EffectivenessOfAddedDamage": 230 },
+        "26": { "EffectivenessOfAddedDamage": 258 },
+        "27": { "EffectivenessOfAddedDamage": 289 },
+        "28": { "EffectivenessOfAddedDamage": 323 },
+        "29": { "EffectivenessOfAddedDamage": 362 },
+        "30": { "EffectivenessOfAddedDamage": 405 }
+      }
+    },
+
+    {
+      "Name": "Shadow Swamp",
+      "Tags": [ "Spell", "Erosion", "Area", "Persistent", "Terra" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.65 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 78 },
+        "21": { "EffectivenessOfAddedDamage": 87 },
+        "22": { "EffectivenessOfAddedDamage": 98 },
+        "23": { "EffectivenessOfAddedDamage": 109 },
+        "24": { "EffectivenessOfAddedDamage": 122 },
+        "25": { "EffectivenessOfAddedDamage": 137 },
+        "26": { "EffectivenessOfAddedDamage": 154 },
+        "27": { "EffectivenessOfAddedDamage": 172 },
+        "28": { "EffectivenessOfAddedDamage": 193 },
+        "29": { "EffectivenessOfAddedDamage": 216 },
+        "30": { "EffectivenessOfAddedDamage": 242 }
+      }
+    },
+
+    {
+      "Name": "Marked Rain of Arrows",
+      "Tags": [ "Attack", "Fire", "Area", "Persistent", "Ranged", "Projectile", "Horizontal", "Vertical" ],
+      "WeaponLimit": [ "Ranged weapons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 162 },
+        "21": { "EffectivenessOfAddedDamage": 174 },
+        "22": { "EffectivenessOfAddedDamage": 188 },
+        "23": { "EffectivenessOfAddedDamage": 203 },
+        "24": { "EffectivenessOfAddedDamage": 220 },
+        "25": { "EffectivenessOfAddedDamage": 237 },
+        "26": { "EffectivenessOfAddedDamage": 256 },
+        "27": { "EffectivenessOfAddedDamage": 277 },
+        "28": { "EffectivenessOfAddedDamage": 299 },
+        "29": { "EffectivenessOfAddedDamage": 323 },
+        "30": { "EffectivenessOfAddedDamage": 349 }
+      }
+    },
+
+    {
+      "Name": "Split Firebolt",
+      "Tags": [ "Spell", "Projectile", "Fire", "Area", "Horizontal" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.65 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 11 },
+        "21": { "EffectivenessOfAddedDamage": 12 },
+        "22": { "EffectivenessOfAddedDamage": 13 },
+        "23": { "EffectivenessOfAddedDamage": 15 },
+        "24": { "EffectivenessOfAddedDamage": 17 },
+        "25": { "EffectivenessOfAddedDamage": 19 },
+        "26": { "EffectivenessOfAddedDamage": 21 },
+        "27": { "EffectivenessOfAddedDamage": 23 },
+        "28": { "EffectivenessOfAddedDamage": 26 },
+        "29": { "EffectivenessOfAddedDamage": 29 },
+        "30": { "EffectivenessOfAddedDamage": 33 }
+      }
+    },
+
+    {
+      "Name": "Blizzard",
+      "Tags": [ "Spell", "Cold", "Area", "Barrage" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.9 s",
+      "Cooldown": "2 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 47 },
+        "21": { "EffectivenessOfAddedDamage": 52 },
+        "22": { "EffectivenessOfAddedDamage": 59 },
+        "23": { "EffectivenessOfAddedDamage": 66 },
+        "24": { "EffectivenessOfAddedDamage": 74 },
+        "25": { "EffectivenessOfAddedDamage": 83 },
+        "26": { "EffectivenessOfAddedDamage": 92 },
+        "27": { "EffectivenessOfAddedDamage": 104 },
+        "28": { "EffectivenessOfAddedDamage": 116 },
+        "29": { "EffectivenessOfAddedDamage": 130 },
+        "30": { "EffectivenessOfAddedDamage": 145 }
+      }
+    },
+
+    {
+      "Name": "Frost Impact",
+      "Tags": [ "Attack", "Melee", "Area", "Cold", "Demolisher" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers", "Cudgels", "Tin Staffs", "Unarmed" ],
+      "MainStat": [ "Strength", "Intelligence" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 202 },
+        "21": { "EffectivenessOfAddedDamage": 227 },
+        "22": { "EffectivenessOfAddedDamage": 254 },
+        "23": { "EffectivenessOfAddedDamage": 284 },
+        "24": { "EffectivenessOfAddedDamage": 319 },
+        "25": { "EffectivenessOfAddedDamage": 357 },
+        "26": { "EffectivenessOfAddedDamage": 400 },
+        "27": { "EffectivenessOfAddedDamage": 448 },
+        "28": { "EffectivenessOfAddedDamage": 501 },
+        "29": { "EffectivenessOfAddedDamage": 561 },
+        "30": { "EffectivenessOfAddedDamage": 629 }
+      }
+    },
+
+    {
+      "Name": "Berserking Blade",
+      "Tags": [ "Attack", "Melee", "Area", "Physical", "Slash-Strike", "Persistent" ],
+      "WeaponLimit": [ "Swords", "Axes", "Cudgels" ],
+      "MainStat": [ "Strength", "Dexterity" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 210 },
+        "21": { "EffectivenessOfAddedDamage": 233 },
+        "22": { "EffectivenessOfAddedDamage": 261 },
+        "23": { "EffectivenessOfAddedDamage": 293 },
+        "24": { "EffectivenessOfAddedDamage": 328 },
+        "25": { "EffectivenessOfAddedDamage": 367 },
+        "26": { "EffectivenessOfAddedDamage": 411 },
+        "27": { "EffectivenessOfAddedDamage": 460 },
+        "28": { "EffectivenessOfAddedDamage": 516 },
+        "29": { "EffectivenessOfAddedDamage": 578 },
+        "30": { "EffectivenessOfAddedDamage": 647 }
+      }
+    },
+
+    {
+      "Name": "Charged Pummel",
+      "Tags": [ "Attack", "Melee", "Area", "Channeled", "Lightning", "Demolisher", "Persistent" ],
+      "WeaponLimit": [ "Two-handed axes", "Two-handed hammers", "Cudgels", "Tin Staffs" ],
+      "MainStat": "Strength",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 438 },
+        "21": { "EffectivenessOfAddedDamage": 490 },
+        "22": { "EffectivenessOfAddedDamage": 549 },
+        "23": { "EffectivenessOfAddedDamage": 615 },
+        "24": { "EffectivenessOfAddedDamage": 689 },
+        "25": { "EffectivenessOfAddedDamage": 771 },
+        "26": { "EffectivenessOfAddedDamage": 864 },
+        "27": { "EffectivenessOfAddedDamage": 968 },
+        "28": { "EffectivenessOfAddedDamage": 1084 },
+        "29": { "EffectivenessOfAddedDamage": 1214 },
+        "30": { "EffectivenessOfAddedDamage": 1359 }
+      }
+    },
+
+    {
+      "Name": "Chain Lightning",
+      "Tags": [ "Spell", "Lightning", "Chain" ],
+      "WeaponLimit": [],
+      "MainStat": [ "Dexterity", "Intelligence" ],
+      "ManaCost": 8,
+      "CastSpeed": "0.65 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 177 },
+        "21": { "EffectivenessOfAddedDamage": 198 },
+        "22": { "EffectivenessOfAddedDamage": 221 },
+        "23": { "EffectivenessOfAddedDamage": 248 },
+        "24": { "EffectivenessOfAddedDamage": 278 },
+        "25": { "EffectivenessOfAddedDamage": 311 },
+        "26": { "EffectivenessOfAddedDamage": 348 },
+        "27": { "EffectivenessOfAddedDamage": 390 },
+        "28": { "EffectivenessOfAddedDamage": 437 },
+        "29": { "EffectivenessOfAddedDamage": 489 },
+        "30": { "EffectivenessOfAddedDamage": 548 }
+      }
+    },
+
+    {
+      "Name": "Double Thrusts",
+      "Tags": [ "Attack", "Melee", "Physical", "Shadow Strike", "Area" ],
+      "WeaponLimit": [ "One-Handed Swords", "Claws", "Daggers" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 186 },
+        "21": { "EffectivenessOfAddedDamage": 208 },
+        "22": { "EffectivenessOfAddedDamage": 233 },
+        "23": { "EffectivenessOfAddedDamage": 261 },
+        "24": { "EffectivenessOfAddedDamage": 293 },
+        "25": { "EffectivenessOfAddedDamage": 328 },
+        "26": { "EffectivenessOfAddedDamage": 367 },
+        "27": { "EffectivenessOfAddedDamage": 411 },
+        "28": { "EffectivenessOfAddedDamage": 461 },
+        "29": { "EffectivenessOfAddedDamage": 516 },
+        "30": { "EffectivenessOfAddedDamage": 578 }
+      }
+    },
+
+    {
+      "Name": "Mind Control",
+      "Tags": [ "Spell", "Erosion", "Channeled", "Persistent" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.333 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 153 },
+        "21": { "EffectivenessOfAddedDamage": 132 },
+        "22": { "EffectivenessOfAddedDamage": 148 },
+        "23": { "EffectivenessOfAddedDamage": 166 },
+        "24": { "EffectivenessOfAddedDamage": 186 },
+        "25": { "EffectivenessOfAddedDamage": 208 },
+        "26": { "EffectivenessOfAddedDamage": 233 },
+        "27": { "EffectivenessOfAddedDamage": 261 },
+        "28": { "EffectivenessOfAddedDamage": 292 },
+        "29": { "EffectivenessOfAddedDamage": 327 },
+        "30": { "EffectivenessOfAddedDamage": 367 }
+      }
+    },
+
+    {
+      "Name": "Ring of Ice",
+      "Tags": [ "Spell", "Cold", "Area" ],
+      "WeaponLimit": [],
+      "MainStat": "Intelligence",
+      "ManaCost": 8,
+      "CastSpeed": "0.8 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 134 },
+        "21": { "EffectivenessOfAddedDamage": 150 },
+        "22": { "EffectivenessOfAddedDamage": 168 },
+        "23": { "EffectivenessOfAddedDamage": 188 },
+        "24": { "EffectivenessOfAddedDamage": 211 },
+        "25": { "EffectivenessOfAddedDamage": 236 },
+        "26": { "EffectivenessOfAddedDamage": 264 },
+        "27": { "EffectivenessOfAddedDamage": 296 },
+        "28": { "EffectivenessOfAddedDamage": 331 },
+        "29": { "EffectivenessOfAddedDamage": 371 },
+        "30": { "EffectivenessOfAddedDamage": 415 }
+      }
+    },
+
+    {
+      "Name": "Split Shot",
+      "Tags": [ "Attack", "Projectile", "Physical", "Ranged", "Horizontal" ],
+      "WeaponLimit": [ "Bows", "Crossbows", "Firearms", "Cannons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 334 },
+        "21": { "EffectivenessOfAddedDamage": 374 },
+        "22": { "EffectivenessOfAddedDamage": 419 },
+        "23": { "EffectivenessOfAddedDamage": 469 },
+        "24": { "EffectivenessOfAddedDamage": 525 },
+        "25": { "EffectivenessOfAddedDamage": 588 },
+        "26": { "EffectivenessOfAddedDamage": 659 },
+        "27": { "EffectivenessOfAddedDamage": 738 },
+        "28": { "EffectivenessOfAddedDamage": 826 },
+        "29": { "EffectivenessOfAddedDamage": 925 },
+        "30": { "EffectivenessOfAddedDamage": 1036 }
+      }
+    },
+
+    {
+      "Name": "Flame Slash",
+      "Tags": [ "Attack", "Melee", "Area", "Fire", "Slash-Strike" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers" ],
+      "MainStat": "Strength",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 346 },
+        "21": { "EffectivenessOfAddedDamage": 388 },
+        "22": { "EffectivenessOfAddedDamage": 434 },
+        "23": { "EffectivenessOfAddedDamage": 487 },
+        "24": { "EffectivenessOfAddedDamage": 545 },
+        "25": { "EffectivenessOfAddedDamage": 610 },
+        "26": { "EffectivenessOfAddedDamage": 684 },
+        "27": { "EffectivenessOfAddedDamage": 766 },
+        "28": { "EffectivenessOfAddedDamage": 858 },
+        "29": { "EffectivenessOfAddedDamage": 961 },
+        "30": { "EffectivenessOfAddedDamage": 1076 }
+      }
+    },
+
+    {
+      "Name": "Icy Blade",
+      "Tags": [ "Attack", "Melee", "Area", "Cold", "Slash-Strike" ],
+      "WeaponLimit": [ "Swords", "Axes", "Hammers" ],
+      "MainStat": [ "Strength", "Intelligence" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 266 },
+        "21": { "EffectivenessOfAddedDamage": 298 },
+        "22": { "EffectivenessOfAddedDamage": 334 },
+        "23": { "EffectivenessOfAddedDamage": 374 },
+        "24": { "EffectivenessOfAddedDamage": 419 },
+        "25": { "EffectivenessOfAddedDamage": 470 },
+        "26": { "EffectivenessOfAddedDamage": 526 },
+        "27": { "EffectivenessOfAddedDamage": 589 },
+        "28": { "EffectivenessOfAddedDamage": 660 },
+        "29": { "EffectivenessOfAddedDamage": 739 },
+        "30": { "EffectivenessOfAddedDamage": 828 }
+      }
+    },
+
+    {
+      "Name": "Frost Spike",
+      "Tags": [ "Attack", "Melee", "Projectile", "Shadow Strike", "Cold", "Area", "Horizontal" ],
+      "WeaponLimit": [ "One-Handed Swords", "Claws", "Daggers" ],
+      "MainStat": [ "Dexterity", "Intelligence" ],
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 201 },
+        "21": { "EffectivenessOfAddedDamage": 225 },
+        "22": { "EffectivenessOfAddedDamage": 252 },
+        "23": { "EffectivenessOfAddedDamage": 282 },
+        "24": { "EffectivenessOfAddedDamage": 316 },
+        "25": { "EffectivenessOfAddedDamage": 353 },
+        "26": { "EffectivenessOfAddedDamage": 396 },
+        "27": { "EffectivenessOfAddedDamage": 443 },
+        "28": { "EffectivenessOfAddedDamage": 497 },
+        "29": { "EffectivenessOfAddedDamage": 556 },
+        "30": { "EffectivenessOfAddedDamage": 623 }
+      }
+    },
+
+    {
+      "Name": "Wilt Spike",
+      "Tags": [ "Attack", "Melee", "Shadow Strike", "Erosion", "Area", "Persistent" ],
+      "WeaponLimit": [ "One-Handed Swords", "Claws", "Daggers" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 201 },
+        "21": { "EffectivenessOfAddedDamage": 220 },
+        "22": { "EffectivenessOfAddedDamage": 240 },
+        "23": { "EffectivenessOfAddedDamage": 265 },
+        "24": { "EffectivenessOfAddedDamage": 290 },
+        "25": { "EffectivenessOfAddedDamage": 315 },
+        "26": { "EffectivenessOfAddedDamage": 340 },
+        "27": { "EffectivenessOfAddedDamage": 370 },
+        "28": { "EffectivenessOfAddedDamage": 400 },
+        "29": { "EffectivenessOfAddedDamage": 430 },
+        "30": { "EffectivenessOfAddedDamage": 460 }
+      }
+    },
+
+    {
+      "Name": "Lightning Shot",
+      "Tags": [ "Attack", "Ranged", "Projectile", "Lightning", "Chain", "Horizontal" ],
+      "WeaponLimit": [ "Bows", "Crossbows", "Firearms", "Cannons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 334 },
+        "21": { "EffectivenessOfAddedDamage": 374 },
+        "22": { "EffectivenessOfAddedDamage": 419 },
+        "23": { "EffectivenessOfAddedDamage": 469 },
+        "24": { "EffectivenessOfAddedDamage": 525 },
+        "25": { "EffectivenessOfAddedDamage": 588 },
+        "26": { "EffectivenessOfAddedDamage": 659 },
+        "27": { "EffectivenessOfAddedDamage": 738 },
+        "28": { "EffectivenessOfAddedDamage": 826 },
+        "29": { "EffectivenessOfAddedDamage": 925 },
+        "30": { "EffectivenessOfAddedDamage": 1036 }
+      }
+    },
+
+    {
+      "Name": "Corrosive Shot",
+      "Tags": [ "Attack", "Erosion", "Area", "Persistent", "Ranged", "Projectile", "Parabolic", "Terra" ],
+      "WeaponLimit": [ "Guns", "Cannons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 95 },
+        "21": { "EffectivenessOfAddedDamage": 107 },
+        "22": { "EffectivenessOfAddedDamage": 119 },
+        "23": { "EffectivenessOfAddedDamage": 134 },
+        "24": { "EffectivenessOfAddedDamage": 150 },
+        "25": { "EffectivenessOfAddedDamage": 168 },
+        "26": { "EffectivenessOfAddedDamage": 188 },
+        "27": { "EffectivenessOfAddedDamage": 210 },
+        "28": { "EffectivenessOfAddedDamage": 236 },
+        "29": { "EffectivenessOfAddedDamage": 264 },
+        "30": { "EffectivenessOfAddedDamage": 295 }
+      }
+    },
+
+    {
+      "Name": "Burning Shot",
+      "Tags": [ "Attack", "Ranged", "Area", "Projectile", "Fire", "Horizontal" ],
+      "WeaponLimit": [ "Ranged weapons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Cooldown": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 256 },
+        "21": { "EffectivenessOfAddedDamage": 287 },
+        "22": { "EffectivenessOfAddedDamage": 321 },
+        "23": { "EffectivenessOfAddedDamage": 359 },
+        "24": { "EffectivenessOfAddedDamage": 403 },
+        "25": { "EffectivenessOfAddedDamage": 451 },
+        "26": { "EffectivenessOfAddedDamage": 505 },
+        "27": { "EffectivenessOfAddedDamage": 566 },
+        "28": { "EffectivenessOfAddedDamage": 633 },
+        "29": { "EffectivenessOfAddedDamage": 709 },
+        "30": { "EffectivenessOfAddedDamage": 80 }
+      }
+    },
+
+    {
+      "Name": "Electrifying Shot",
+      "Tags": [ "Attack", "Ranged", "Projectile", "Lightning", "Horizontal" ],
+      "WeaponLimit": [ "Guns", "Cannons" ],
+      "MainStat": "Dexterity",
+      "ManaCost": 5,
+      "CastSpeed": "1 s",
+      "Levels": {
+        "20": { "EffectivenessOfAddedDamage": 302 },
+        "21": { "EffectivenessOfAddedDamage": 338 },
+        "22": { "EffectivenessOfAddedDamage": 379 },
+        "23": { "EffectivenessOfAddedDamage": 424 },
+        "24": { "EffectivenessOfAddedDamage": 475 },
+        "25": { "EffectivenessOfAddedDamage": 532 },
+        "26": { "EffectivenessOfAddedDamage": 596 },
+        "27": { "EffectivenessOfAddedDamage": 668 },
+        "28": { "EffectivenessOfAddedDamage": 748 },
+        "29": { "EffectivenessOfAddedDamage": 837 },
+        "30": { "EffectivenessOfAddedDamage": 938 }
+      }
+    },
+
+  ]
+}

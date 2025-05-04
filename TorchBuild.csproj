@@ -11,6 +11,18 @@
   <ItemGroup>
     <Folder Include="Assets\Heroes\" />
     <Folder Include="Assets\Skills\" />
+    <Folder Include="Data\Skills\PassiveSkills\" />
+    <Folder Include="Data\Skills\SupportSkills\" />
+    <Folder Include="Data\Skills\NobleSkills\" />
+    <Folder Include="Data\Skills\MagnificentSkills\" />
+    <Folder Include="Data\Skills\ActivationSkills\" />
+    <Folder Include="Models\Skills\ActiveSkill\" />
+    <Folder Include="Models\Skills\PassiveSkill\" />
+    <Folder Include="Models\Skills\SupportSkill\" />
+    <Folder Include="Models\Skills\NobleSkill\" />
+    <Folder Include="Models\Skills\MagnificentSkill\" />
+    <Folder Include="Models\StatusEffects\NegativeStatusEffects\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>

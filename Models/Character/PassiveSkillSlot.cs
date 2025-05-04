@@ -8,14 +8,14 @@ namespace TorchBuild.Models.Character
         public int SlotIndex { get; }
         public Skill PassiveSkill { get; private set; }
         public List<Skill> SupportSkills { get; private set; } = new List<Skill>();
-        public AttackDamageStats AttackStats { get; private set; }
-        public SpellDamageStats SpellStats { get; private set; }
+        public AttackDamageValueStats AttackStats { get; private set; }
+        public SpellDamageValueStats SpellStats { get; private set; }
 
         public PassiveSkillSlot(int index)
         {
             SlotIndex = index;
-            AttackStats = new AttackDamageStats();
-            SpellStats = new SpellDamageStats();
+            AttackStats = new AttackDamageValueStats();
+            SpellStats = new SpellDamageValueStats();
         }
 
         public void SetPassiveSkill(Skill skill)

@@ -2,7 +2,7 @@
 
 namespace TorchBuild.Models.Stats
 {
-    public class SpellDamageStats
+    public class SpellDamageValueStats
     {
         public int SpellDPS { get; set; }
         public int FireSpellDamage { get; set; }

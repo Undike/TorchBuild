@@ -1,0 +1,30 @@
+﻿{
+  "Name": "God of Might",
+  "MainStats": "STR",
+  "BaseTalentTree": {
+    "Name": "God of Might",
+    "TreeSize": 7,
+    "Tags": [ "Attack", "Fire" ],
+    "Talents": [
+      {
+        "Name": "God of Might1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+
+          }
+        ]
+      },
+      {
+        "Name": "God of Might3",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "God of Might1"
+      }
+    ]
+  }
+}

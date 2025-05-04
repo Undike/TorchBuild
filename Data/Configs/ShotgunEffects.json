@@ -1,0 +1,17 @@
+﻿{
+  "DefaultValues": {
+    "Penalty": 0.36,
+    "AffectsAilments": true,
+    "Comment": "Штраф к урона по одной цели"  
+  },
+  "SkillOverrides": {
+    "SplitFirebolt": {
+      "Penalty": 0.75,
+      "Comment": "Фиксированный штраф 75% для малых шаров"
+    },
+    "IceLances": {
+      "Penalty": 0.5,
+      "Comment": "Фиксированный штраф 50%"
+    }
+  }
+}

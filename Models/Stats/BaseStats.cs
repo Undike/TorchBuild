@@ -7,9 +7,11 @@
         public int EnergyShield { get; set; }
         public int Mana { get; set; }
         public int Energy { get; set; }
+        // Main Stats
         public int Strength { get; set; }
         public int Dexterity { get; set; }
         public int Intelligence { get; set; }
+        //Resistances
         public int ErosionResistance { get; set; }
         public int FireResistance { get; set; }
         public int ColdResistance { get; set; }
