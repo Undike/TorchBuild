@@ -11,6 +11,7 @@
   <ItemGroup>
     <Folder Include="Assets\Heroes\" />
     <Folder Include="Assets\Skills\" />
+    <Folder Include="Assets\Talents\" />
     <Folder Include="Data\Skills\PassiveSkills\" />
     <Folder Include="Data\Skills\SupportSkills\" />
     <Folder Include="Data\Skills\NobleSkills\" />

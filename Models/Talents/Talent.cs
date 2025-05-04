@@ -28,7 +28,7 @@ namespace TorchBuild.Models.Talents
             Tier = tier;
             PrerequisiteTalent = prerequisiteTalent;
 
-            if (StatModifiers != null)
+            if (statModifiers != null)
                 StatModifiers = statModifiers;
         }
 
@@ -39,7 +39,10 @@ namespace TorchBuild.Models.Talents
 
         public void InvestPoints(int points)
         {
-            //TODO
+            if (CurrentPoints + points > MaxPoints)
+                throw new ArgumentException($"Ошибка: нельзя вложить больше {MaxPoints} очков в {Name}!");
+
+            CurrentPoints += points;
         }
     }
 }

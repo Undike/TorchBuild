@@ -6,15 +6,28 @@ namespace TorchBuild.Models.StatusEffects.PositiveStatusEffects
     {
         public string Name { get; } = "Recent";
         public string Description { get; } = "Recent";
+        public bool IsActive { get; private set; } = false;
         public int Duration { get; } = 4;
         public int Stacks { get; } = 1;
+
         public void ApplyEffect()
         {
-            //TO DO
+            if (!IsActive)
+            {
+                IsActive = true;
+            }
+            else
+            {
+                //TODO: добавить логику работы Multistrike
+            }
         }
+
         public void RemoveEffect()
         {
-            //TO DO
+            if (IsActive)
+            {
+                IsActive = false;
+            }
         }
     }
 }

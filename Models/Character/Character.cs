@@ -22,4 +22,4 @@ namespace TorchBuild.Models.Character
         public List<INegativeStatusEffect> NegativeStatusEffects { get; } = new List<INegativeStatusEffect>();
     }
 }
-}
+
