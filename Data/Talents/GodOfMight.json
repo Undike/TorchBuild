@@ -1,0 +1,2297 @@
+﻿{
+  "Name": "God of Might",
+  "MainStats": "Strength",
+  "BaseTalentTree": {
+    "Name": "God of Might",
+    "TreeSize": 7,
+    "Tags": [ "Attack", "Fire" ],
+    "Talents": [
+      {
+        "Name": "God of Might1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": "9"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": "3"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might3",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "God of Might1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": "18"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might4",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": "3"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": "10"
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": "3"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "God of Might2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": "6"
+          },
+          {
+            "attributeModifier": "DecreaseAttackSkillCost",
+            "Value": "4"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": "5"
+          },
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": "2"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "God of Might4",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": "5"
+          },
+          {
+            "attributeModifier": "IncreaseFireSkillArea",
+            "Value": "5"
+          }
+        ]
+      },
+      {
+        "Name": "God of Might9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseIgniteDamage",
+            "Value": "8"
+          },
+          {
+            "attributeModifier": "IncreaseIgnateChance",
+            "Value": "6"
+          },
+          {
+            "Name": "God of Might10",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 4,
+            "PrerequisiteTalent": "God of Might5",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseProjectileSpeed",
+                "Value": "9"
+              },
+              {
+                "attributeModifier": "IncreaseRangedAttackCriticalStrikeRating",
+                "Value": "25"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might11",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 4,
+            "PrerequisiteTalent": "God of Might5",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseSkillArea",
+                "Value": "10"
+              },
+              {
+                "attributeModifier": "IncreaseCriticalStrikeDamageToMeleeAttacks",
+                "Value": "10"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might12",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 4,
+            "PrerequisiteTalent": "God of Might7",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseArmor",
+                "Value": "10"
+              },
+              {
+                "attributeModifier": "IncreaseMaxLife",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might13",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 4,
+            "PrerequisiteTalent": "God of Might9",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseIgniteDamage",
+                "Value": "16"
+              },
+              {
+                "attributeModifier": "IncreaseIgnateChance",
+                "Value": "12"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might14",
+            "Type": "Minor",
+            "MaxPoints": 3,
+            "Tier": 5,
+            "PrerequisiteTalent": null,
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAttackDamage",
+                "Value": "9"
+              },
+              {
+                "attributeModifier": "IncreaseMovementSpeed",
+                "Value": "2"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might15",
+            "Type": "Minor",
+            "MaxPoints": 3,
+            "Tier": 5,
+            "PrerequisiteTalent": null,
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseStrength",
+                "Value": "8"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might16",
+            "Type": "Minor",
+            "MaxPoints": 3,
+            "Tier": 5,
+            "PrerequisiteTalent": null,
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseFireDamage",
+                "Value": "9"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might17",
+            "Type": "Minor",
+            "MaxPoints": 3,
+            "Tier": 5,
+            "PrerequisiteTalent": null,
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAttackDamage",
+                "Value": "9"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might18",
+            "Type": "Medium",
+            "MaxPoints": 2,
+            "Tier": 6,
+            "PrerequisiteTalent": "God of Might14",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAttackDamage",
+                "Value": "18"
+              },
+              {
+                "attributeModifier": "IncreaseMovementSpeed",
+                "Value": "4"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might19",
+            "Type": "Minor",
+            "MaxPoints": 3,
+            "Tier": 6,
+            "PrerequisiteTalent": null,
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseMaxLife",
+                "Value": "2"
+              },
+              {
+                "attributeModifier": "IncreaseLifeRegain",
+                "Value": "1.5"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might20",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 6,
+            "PrerequisiteTalent": "God of Might15",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseStrength",
+                "Value": "16"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might21",
+            "Type": "Medium",
+            "MaxPoints": 2,
+            "Tier": 6,
+            "PrerequisiteTalent": "God of Might16",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseFireResistance",
+                "Value": "5"
+              },
+              {
+                "attributeModifier": "ConvertPhysicalDamageToFireDamage",
+                "Value": "50"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might22",
+            "Type": "Medium",
+            "MaxPoints": 2,
+            "Tier": 6,
+            "PrerequisiteTalent": "God of Might17",
+            "StatModifiers": [
+              {
+                "attributeModifier": "WarcryCooldownRecoverySpeed",
+                "Value": "10"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might23",
+            "Type": "LegendaryMedium",
+            "MaxPoints": 1,
+            "Tier": 7,
+            "PrerequisiteTalent": "God of Might18",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAttackSkillLevel",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might24",
+            "Type": "Medium",
+            "MaxPoints": 3,
+            "Tier": 7,
+            "PrerequisiteTalent": "God of Might19",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseMaxLife",
+                "Value": "4"
+              },
+              {
+                "attributeModifier": "IncreaseLifeRegain",
+                "Value": "3"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might25",
+            "Type": "LegendaryMedium",
+            "MaxPoints": 1,
+            "Tier": 7,
+            "PrerequisiteTalent": "God of Might21",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAdditionFireDamageDealtByTheNextMainSkillEvery1s",
+                "Value": "12"
+              }
+            ]
+          },
+          {
+            "Name": "God of Might26",
+            "Type": "LegendaryMedium",
+            "MaxPoints": 1,
+            "Tier": 7,
+            "PrerequisiteTalent": "God of Might22",
+            "StatModifiers": [
+              {
+                "attributeModifier": "IncreaseAdditionAttackDamageIfYouHaveUsedAWarcrySkillInTheLast8s",
+                "Value": "12"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "SecondTalentTree": {
+    "Name": "The Brave",
+    "TreeSize": 9,
+    "Tags": [ "One-Handed Weapon", "Armor" ],
+    "Talents": [
+      {
+        "Name": "The Brave1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": "9"
+          }
+        ]
+      },
+      {
+        "Name": "The Brave2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": "3"
+          }
+        ]
+      },
+      {
+        "Name": "The Brave3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "The Brave4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "The Brave1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "The Brave5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "The Brave6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "The Brave2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "IncreaseRegeneratesLifePerSecond",
+            "Value": 0.5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatArmor",
+            "Value": 450
+          }
+        ]
+      },
+      {
+        "Name": "The Brave8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "The Brave3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "The Brave9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "The Brave10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "The Brave5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "DecreaseAttackSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "The Brave11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackBlockChance",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "The Brave12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "The Brave7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatArmor",
+            "Value": 900
+          }
+        ]
+      },
+      {
+        "Name": "The Brave13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "The Brave14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "The Brave9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "The Brave11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackBlockChance",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "The Brave17",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseTenacityBlessingDuration",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseElementalResistanceWhileTenacityBlessingIsActive",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave18",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "The Brave13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "The Brave19",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "The Brave20",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "The Brave15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "The Brave21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave22",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 5,
+        "PrerequisiteTalent": "The Brave17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToGainOneStacksOfTenacityBlessingWhenTakingDamageInterval1s",
+            "Value": 25
+          }
+        ]
+      },
+      {
+        "Name": "The Brave23",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "The Brave19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "The Brave24",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseWarcrySkillArea",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "The Brave25",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "The Brave21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "The Brave26",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmorPerStackOfTenacityBlessing",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "The Brave27",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreasePhysicalDamageTaken",
+            "Value": 30
+          }
+        ]
+      },
+      {
+        "Name": "The Brave28",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "The Brave29",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "The Brave24",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseWarcrySkillArea",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "The Brave30",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "The Brave24",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMinimumNumberOfEnemiesAffectedByWarcry",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave31",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "The Brave32",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "The Brave27",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseAdditionalElementalDamageTaken",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "The Brave33",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "The Brave28",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedWhileDualWielding",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "The Brave34",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "The Brave28",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedWhileHoldingAShield",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "The Brave35",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatStrength",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "The Brave36",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 8,
+        "PrerequisiteTalent": "The Brave31",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToGainDoubleArmor",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "The Brave37",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "The Brave38",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "The Brave33",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalAttackDamageForEachUniqueTypeOfWeaponEquippedWhileDualWielding",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "The Brave39",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "The Brave34",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalMainHandWeaponDamageWhileHoldingAShield",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseMovementSpeedWhenHoldingAShield",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "The Brave40",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "The Brave35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmorPerStrength",
+            "Value": 1,
+            "ForEach": 10
+          }
+        ]
+      },
+      {
+        "Name": "The Brave41",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "The Brave36",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDefenceGainedFromChestArmor",
+            "Value": 50
+          }
+        ]
+      },
+      {
+        "Name": "The Brave42",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "The Brave37",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseElementalResistancePerArmor",
+            "Value": 0.5,
+            "ForEach": 3000,
+            "MaxValue": 6
+          },
+          {
+            "attributeModifier": "IncreaseErosionResistancePerArmor",
+            "Value": 0.5,
+            "ForEach": 3000,
+            "MaxValue": 6
+          }
+        ]
+      }
+    ]
+  },
+  "ThirdTalentTree": {
+    "Name": "Onslaughter",
+    "TreeSize": 9,
+    "Tags": [ "Two-Handed", "Weapon", "Life" ],
+    "Talents": [
+      {
+        "Name": "Onslaughter1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDefence",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Onslaughter1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Onslaughter2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDefence",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseRegeneratesLifePerSecond",
+            "Value": 0.4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Onslaughter3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Onslaughter5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "DecreaseAttackSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseTenacityBlessingDuration",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncraseElementalResistanceWhileTenacityBlessingIsActive",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Onslaughter7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseRegeneratesLifePerSecond",
+            "Value": 0.8
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Onslaughter9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter16",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 4,
+        "PrerequisiteTalent": "Onslaughter11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegenerationSpeedPerStackOfTenacityBlessingOwned",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseFlatLifeRegenerationPerSecondPerStackOfTenacityBlessingOwned",
+            "Value": 25
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter17",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter18",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 4,
+        "PrerequisiteTalent": "Onslaughter13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 16
+          },
+          {
+            "attributeModifier": "RestoreMissingLifeWhenSufferSevereInjury",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter19",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter20",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Onslaughter15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 30
+          },
+          {
+            "attributeModifier": "DecreaseAttackSpeed",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackBlockChance",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter22",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Onslaughter17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseInjuryBaffer",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter23",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter24",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Onslaughter19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalDamageAppliedToLife",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter25",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Onslaughter19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalRangedTwoHandedWeaponBaseAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter26",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Onslaughter21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseBlockRatioWhenHoldingTwoHandedWeapon",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter27",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Onslaughter23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillCost",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseLifeRegenerationSpeed",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter28",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Onslaughter23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter29",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "Onslaughter24",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedPerLifeLostPercentage",
+            "Value": 0.4,
+            "ForEach": 1
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter30",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamageWhenHoldingTwoHandedWeapon",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter31",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter32",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter33",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseStrength",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter34",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter35",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "Onslaughter30",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionBaseDamageForTwoHandedWeapons",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter36",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "Onslaughter30",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRatingWhenHoldingTwoHandedWeapon",
+            "Value": 40
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter37",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Onslaughter32",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseAdditionalLifeRegainInterval",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "ConsumesLifeOnAttackSkillUse",
+            "Value": 2
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter38",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "Onslaughter33",
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatLife",
+            "Value": 80
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter39",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Onslaughter34",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalAttackDamageAgainstFullLifeEnemies",
+            "Value": 40
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter40",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Onslaughter35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalBaseDamageForTwoHandedWeapons",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter41",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Onslaughter36",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseInflictedParalysisEffectWhenHoldingTwoHandedWeapon",
+            "Value": 100
+          }
+        ]
+      },
+      {
+        "Name": "Onslaughter42",
+        "Type": "LegendaryMedium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Onslaughter38",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLifePerStrength",
+            "Value": 1,
+            "ForEach": 4
+          }
+        ]
+      }
+    ]
+  },
+  "FourthTalentTree": {
+    "Name": "Warlord",
+    "TreeSize": 9,
+    "Tags": [ "Fire", "Area" ],
+    "Talents": [
+      {
+        "Name": "Warlord1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Warlord3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAreaDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Warlord1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 18
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Warlord5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMinionAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Warlord6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Warlord2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Warlord7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 4.5
+          },
+          {
+            "attributeModifier": "IncreaseMinionProjectileSpeed",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Warlord3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAreaDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Warlord9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseIgnateChance",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseIgniteDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseIgnatechanceForMinions",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Warlord10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Warlord5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedAndCastSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMinionAttackSpeedAndCastSpeed",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Warlord11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Warlord12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Warlord7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionProjectileSpeed",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Warlord13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Warlord14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Warlord9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseIgniteDamage",
+            "Value": 16
+          },
+          {
+            "attributeModifier": "IncreaseIgniteChance",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "IncreaseMinionIgniteChance",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Warlord15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Warlord11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Warlord17",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Warlord18",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Warlord13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseArmor",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseElementalResistance",
+            "Value": 2.5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord19",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Warlord20",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Warlord15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFirePenetration",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMinionFirePenetration",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Warlord21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord22",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 4,
+        "PrerequisiteTalent": "Warlord17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireResistance",
+            "Value": 4
+          },
+          {
+            "attributeModifier": "DecreaseAdditionalIgniteDamageTaken",
+            "Value": 100
+          },
+          {
+            "attributeModifier": "DecreaseIgniteEffectReceived",
+            "Value": 100
+          },
+          {
+            "attributeModifier": "MinionsAreImmuneToFireDamage"
+          }
+        ]
+      },
+      {
+        "Name": "Warlord23",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillArea",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Warlord24",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Warlord19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord25",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord26",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Warlord21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Warlord27",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseTenacityBlessingDuration",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseElementalResistanceWhileTenacityBlessingIsActive",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord28",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Warlord23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillArea",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "Warlord29",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord30",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Warlord25",
+        "StatModifiers": [],
+        "ConversionEffects": [
+          {
+            "Effect": "ConvertPhysicalDamageToFireDamage",
+            "Value": 100
+          },
+          {
+            "Effect": "ConvertMinionPhysicalDamageToFireDamage",
+            "Value": 100
+          }
+        ]
+      },
+      {
+        "Name": "Warlord31",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatStrength",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord32",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Warlord27",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxTenacityBlessingStacks",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Warlord33",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAreaDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord34",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 7,
+        "PrerequisiteTalent": "Warlord29",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamageAgainstLowLifeEnemies",
+            "Value": 45
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamageAgainstLowLifeEnemies",
+            "Value": 45
+          }
+        ]
+      },
+      {
+        "Name": "Warlord35",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamageOverTime",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionFireDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "AddFlatBaseIgniteDamage",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Warlord36",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 7,
+        "PrerequisiteTalent": "Warlord31",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseStrength",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Warlord37",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 7,
+        "PrerequisiteTalent": "Warlord31",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamage",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Warlord38",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAreaDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Warlord39",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Warlord34",
+        "StatModifiers": [
+          {
+            "attributeModifier": "InflictAdditionalStackOfIgnite",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Warlord40",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 8,
+        "PrerequisiteTalent": "Warlord35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAfflictionEffect",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "IncreaseMinionAfflictionEffect",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "IncreaseFlatAfflictionInflictedPerSecond",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseMinionFlatAfflictionInflictedPerSecond",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Warlord41",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Warlord36",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseStrength",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Warlord42",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Warlord37",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseFireDamagePerStrength",
+            "Value": 1,
+            "ForEach": 6
+          }
+        ]
+      },
+      {
+        "Name": "Warlord43",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Warlord38",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillAreaIfMainSkillIsNotUsedInTheLast2s",
+            "Value": 40
+          }
+        ]
+      }
+    ]
+  }
+}

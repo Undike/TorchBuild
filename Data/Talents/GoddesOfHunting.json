@@ -1,0 +1,2328 @@
+﻿{
+  "Name": "Goddes Of Hunting",
+  "MainStats": "Dexterity",
+  "BaseTalentTree": {
+    "Name": "Goddes Of Hunting",
+    "TreeSize": 7,
+    "Tags": [ "Speed", "Lightning" ],
+    "Talents": [
+      {
+        "Name": "GoddesOfHunting1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": "9"
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedAndCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting3",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "GoddessOfHunting1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting4",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMovementSpeed",
+            "Value": 2
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "GoddessOfHunting2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedAndCastSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillArea",
+            "Value": 7
+          },
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "GoddessOfHunting4",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "GoddessOfHunting5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMovementSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseCooldownRecoverySpeedForMobilitySkills",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "GoddessOfHunting7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSkillArea",
+            "Value": 14
+          },
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "GoddessOfHunting9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseChanceToGainAgilityBlessingOnEvasionInterval1s",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting15",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "GoddessOfHunting11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 16
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting17",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 5,
+        "PrerequisiteTalent": "GoddessOfHunting3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 16
+          },
+          {
+            "attributeModifier": "IncreaseNumbedChance",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "ConvertPhysicalDamageToLightning",
+            "Value": 50
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting18",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 6,
+        "PrerequisiteTalent": "GoddessOfHunting15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackCriticalStrikeRating",
+            "Value": 40
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting19",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting20",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting21",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamageIfDefeatedEnemyRecently",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting22",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting23",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "GoddessOfHunting18",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalAttackSpeedOnCriticalStrikeRecent",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting24",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "GoddessOfHunting19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeChanceForEachSpellSkillUsedRecently",
+            "Value": 4,
+            "ForEach": 1,
+            "MaxStacks": 16
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting25",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "GoddessOfHunting20",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting26",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "GoddessOfHunting21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamageOnDefeat",
+            "Value": 5,
+            "MaxStack": 8,
+            "Duration": 4
+          },
+          {
+            "attributeModifier": "IncreaseMovementSpeedOnDefeat",
+            "Value": 2,
+            "MaxStack": 8,
+            "Duration": 4
+          }
+        ]
+      },
+      {
+        "Name": "GoddessOfHunting27",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "GoddessOfHunting22",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalDamageAfterMobilitySkill",
+            "Value": 12,
+            "Duration": 4
+          }
+        ]
+      }
+    ]
+  },
+  "SecondTalentTree": {
+    "Name": "Marksman",
+    "TreeSize": 9,
+    "Tags": [ "Projectile", "Evade" ],
+    "Talents": [
+      {
+        "Name": "Marksman1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Marksman2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Marksman4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Marksman1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Marksman5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Marksman2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Marksman3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "Marksman9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Marksman5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Marksman7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Marksman13",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Marksman14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Marksman9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Marksman15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Marksman16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Marksman11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman17",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Marksman18",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 4,
+        "PrerequisiteTalent": "Marksman13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasionPerDexterity",
+            "Value": 1,
+            "ForEach": 10
+          }
+        ]
+      },
+      {
+        "Name": "Marksman19",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileDamage",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman20",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Marksman15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 30
+          },
+          {
+            "attributeModifier": "IncreaseChanceToCauseKnockbackOnCriticalStrike",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Marksman21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Marksman22",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Marksman17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "AddLightningResistance",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman23",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Marksman24",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 6,
+        "PrerequisiteTalent": "Marksman19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Marksman25",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 6,
+        "PrerequisiteTalent": "Marksman19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileCriticalStrikeDamage",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Marksman26",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Marksman21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman27",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToAvoidDamage",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Marksman28",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Marksman23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasionWhileMoving",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Marksman29",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "Marksman24",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseProjectileDamageWithDistance",
+            "MaxValue": 60
+          }
+        ]
+      },
+      {
+        "Name": "Marksman30",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "Marksman25",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileDamageAgainstEnemiesInProximity",
+            "Value": 72
+          }
+        ]
+      },
+      {
+        "Name": "Marksman31",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman32",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "Marksman27",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToAvoidProjectileDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseAdditionalMeleeDamageTaken",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman33",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "Marksman27",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToAvoidMeleeDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseAdditionalProjectileDamageTaken",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Marksman34",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Marksman29",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseParabolicProjectileSplits",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Marksman35",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileDamage",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Marksman36",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Marksman31",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "RestoreMissingLife",
+            "Value": 4,
+            "IntervalInSeconds": 0.3
+          },
+          {
+            "attributeModifier": "RestoreMissingEnergyShield",
+            "Value": 4,
+            "IntervalInSeconds": 0.3
+          }
+        ]
+      },
+      {
+        "Name": "Marksman37",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatEvasion",
+            "Value": 450
+          }
+        ]
+      },
+      {
+        "Name": "Marksman38",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Marksman39",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Marksman35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseJumps",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Marksman40",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Marksman35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseHorizontalProjectilePenetrations",
+            "Value": 2
+          }
+        ]
+      },
+      {
+        "Name": "Marksman41",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Marksman35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseParabolicProjectileSplits",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Marksman42",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Marksman37",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasionFromChestArmor",
+            "Value": 50
+          }
+        ]
+      },
+      {
+        "Name": "Marksman43",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Marksman38",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasionPerAgilityBlessingStack",
+            "Value": 8
+          }
+        ]
+      }
+    ]
+  },
+  "ThirdTalentTree": {
+    "Name": "Bladerunner",
+    "TreeSize": 9,
+    "Tags": [ "Lightning", "Attack Speed" ],
+    "Talents": [
+      {
+        "Name": "Bladerunner1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMinionAttackSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Bladerunner1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 18
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Bladerunner2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner7",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Bladerunner3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMinionAttackSpeed",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Bladerunner5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "IncreaseMinionCriticalStrikeDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner12",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Bladerunner7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner14",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 4,
+        "PrerequisiteTalent": "Bladerunner9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddLightningResistance",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "DecreaseNumbedEffectReceived",
+            "Value": 100
+          },
+          {
+            "attributeModifier": "MinionImmunityToLightningDamage"
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseNumbedChance",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseNumbedChanceForMinions",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Bladerunner11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner17",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 4.5
+          },
+          {
+            "attributeModifier": "IncreaseMinionProjectileSpeed",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner18",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Bladerunner13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 18
+          },
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner19",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner20",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 5,
+        "PrerequisiteTalent": "Bladerunner15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseNumbedEffect",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner22",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Bladerunner17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionProjectileSpeed",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner23",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner24",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Bladerunner19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "ConvertPhysicalDamageToLightning",
+            "Value": 100
+          },
+          {
+            "attributeModifier": "ConvertMinionPhysicalDamageToLightningDamage",
+            "Value": 100
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner25",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAgilityBlessingDuration",
+            "Value": 10
+          },
+          {
+            "attributeModifier": "IncreaseAttackSpeedWhileAgilityBlessingIsActive",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner26",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Bladerunner21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "ApplyMovementSpeedBonusToCooldownRecoverySpeedForMovementSkills",
+            "Value": 35
+          },
+          {
+            "attributeModifier": "ApplyMovementSpeedBonusToAttackAndCastSpeedForMovementSkills",
+            "Value": 70
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner27",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Bladerunner23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseAdditionalEnergyShieldRegainInterval",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner28",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Bladerunner23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseAdditionalLifeRegainInterval",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner29",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 7,
+        "PrerequisiteTalent": "Bladerunner25",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxAgilityBlessingStacks",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner30",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner31",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanseToMultistrike",
+            "Value": 6
+          },
+          {
+            "attributeModifier": "IncreaseMinionChanseToMultistrike",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner32",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "IncreaseNumbedChance",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner33",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningPenetration",
+            "Value": 1.5
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningPenetration",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner34",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Bladerunner30",
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner35",
+        "Type": "Medium",
+        "MaxPoints": 2,
+        "Tier": 8,
+        "PrerequisiteTalent": "Bladerunner31",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalAttackSpeedOnMultistrike",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseAdditionalMinionAttackSpeedOnMultistrike",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner36",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningDamage",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner37",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Bladerunner32",
+        "StatModifiers": [
+          {
+            "attributeModifier": "ReduceMaxLifeAndEnergyShieldThresholdForInflictingNumbedOnSupremeBosses",
+            "Value": 5
+          },
+          {
+            "attributeModifier": "InflictAdditionalNumbedStack",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner38",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Bladerunner33",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLightningPenetrationOnCriticalStrike",
+            "Value": 12
+          },
+          {
+            "attributeModifier": "IncreaseMinionLightningPenetration",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner39",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Bladerunner34",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeedPerDexterity",
+            "Value": 1,
+            "ForEach": 20
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner40",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Bladerunner35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMultistrikeDamage",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseMinionMultistrikeDamage",
+            "Value": 20
+          }
+        ]
+      },
+      {
+        "Name": "Bladerunner41",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Bladerunner36",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAdditionalMaxDamage",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "IncreaseAdditionalMinionMaxDamage",
+            "Value": 15
+          }
+        ]
+      }
+    ]
+  },
+  "FourthTalentTree": {
+    "Name": "Druid",
+    "TreeSize": 9,
+    "Tags": [ "Cast Speed", "Regain" ],
+    "Talents": [
+      {
+        "Name": "Druid1",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid2",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid3",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 1,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Druid4",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Druid1",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Druid5",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSpellDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Druid6",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Druid2",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Druid7",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 2,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Druid8",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 2,
+        "PrerequisiteTalent": "Druid3",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Druid9",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Druid10",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": "Druid5",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSpellDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Druid11",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid12",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 3,
+        "PrerequisiteTalent": "Druid7",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseLifeRegain",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "DecreaseLifeRegainInterval",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Druid13",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 3,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Druid14",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Druid9",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCriticalStrikeRating",
+            "Value": 20
+          },
+          {
+            "attributeModifier": "IncreaseCriticalStrikeDamage",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Druid15",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 7
+          }
+        ]
+      },
+      {
+        "Name": "Druid16",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Druid11",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 6
+          }
+        ]
+      },
+      {
+        "Name": "Druid17",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAgilityBlessingDuration",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Druid18",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 4,
+        "PrerequisiteTalent": "Druid13",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxMana",
+            "Value": 9
+          },
+          {
+            "attributeModifier": "RegenerateManaPerSecond",
+            "Value": 0.6
+          }
+        ]
+      },
+      {
+        "Name": "Druid19",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid20",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": "Druid15",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEvasion",
+            "Value": 14
+          }
+        ]
+      },
+      {
+        "Name": "Druid21",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 5
+          }
+        ]
+      },
+      {
+        "Name": "Druid22",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 5,
+        "PrerequisiteTalent": "Druid17",
+        "StatModifiers": [
+          {
+            "attributeModifier": "RestoreLifeWhenReceivingAgilityBlessing",
+            "Value": 1.5,
+            "IntervalInSeconds": 0.1
+          },
+          {
+            "attributeModifier": "RestoreManaWhenReceivingAgilityBlessing",
+            "Value": 1.5,
+            "IntervalInSeconds": 0.1
+          }
+        ],
+        "EffectCooldown": 0.1
+      },
+      {
+        "Name": "Druid23",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 5,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 1.5
+          }
+        ]
+      },
+      {
+        "Name": "Druid24",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Druid19",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 15
+          },
+          {
+            "attributeModifier": "DecreaseSpellDamage",
+            "Value": 15
+          }
+        ]
+      },
+      {
+        "Name": "Druid25",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Druid26",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": "Druid21",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseProjectileSpeed",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Druid27",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 6,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 4
+          }
+        ]
+      },
+      {
+        "Name": "Druid28",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 6,
+        "PrerequisiteTalent": "Druid23",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseEnergyShieldRegain",
+            "Value": 8
+          },
+          {
+            "attributeModifier": "DecreaseAdditionalEnergyShieldRegainInterval",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Druid29",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAgilityBlessingDuration",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Name": "Druid30",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "Druid25",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseDamage",
+            "Value": 18
+          }
+        ]
+      },
+      {
+        "Name": "Druid31",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "AddFlatDexterity",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Druid32",
+        "Type": "Medium",
+        "MaxPoints": 3,
+        "Tier": 7,
+        "PrerequisiteTalent": "Druid27",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseSkillCost",
+            "Value": 8
+          }
+        ]
+      },
+      {
+        "Name": "Druid33",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 7,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseAttackSpeed",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseCastSpeed",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid34",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Druid29",
+        "ScalingEffects": [
+          {
+            "attributeModifier": "IncreaseCastSpeedPerStackOfAgilityBlessing",
+            "Value": 5,
+            "ForEach": 1
+          }
+        ]
+      },
+      {
+        "Name": "Druid35",
+        "Type": "Minor",
+        "MaxPoints": 4,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseSpellDamage",
+            "Value": 9
+          }
+        ]
+      },
+      {
+        "Name": "Druid36",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Druid31",
+        "ScalingEffects": [
+          {
+            "attributeModifier": "IncreaseCastSpeedPerDexterity",
+            "Value": 1,
+            "ForEach": 20
+          }
+        ]
+      },
+      {
+        "Name": "Druid37",
+        "Type": "Minor",
+        "MaxPoints": 3,
+        "Tier": 8,
+        "PrerequisiteTalent": null,
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseMaxLife",
+            "Value": 3
+          },
+          {
+            "attributeModifier": "IncreaseMaxEnergyShield",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "Name": "Druid38",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 8,
+        "PrerequisiteTalent": "Druid33",
+        "StatModifiers": [
+          {
+            "attributeModifier": "RestoreMissingLifeWhenSufferSevereInjury",
+            "Value": 25
+          },
+          {
+            "attributeModifier": "RestoreMissingEnergyShieldWhenSufferSevereInjury",
+            "Value": 25
+          }
+        ]
+      },
+      {
+        "Name": "Druid39",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Druid34",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToGainAgilityBlessingOnUseSpellSkill",
+            "Value": 15,
+            "IntervalInSeconds": 1
+          }
+        ]
+      },
+      {
+        "Name": "Druid40",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Druid35",
+        "StatModifiers": [
+          {
+            "attributeModifier": "IncreaseChanceToTriggerMainSpellSkillAdditionalTimeWhenUsingIt",
+            "Value": 12
+          }
+        ]
+      },
+      {
+        "Name": "Druid41",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Druid37",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DamageTakenBypassesEnergyShield",
+            "Value": 50
+          }
+        ]
+      },
+      {
+        "Name": "Druid42",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Druid37",
+        "StatModifiers": [
+          {
+            "attributeModifier": "RegainsAdditionalLifeBasedOnMissingEnergyShield"
+          },
+          {
+            "attributeModifier": "RegainsAdditionalEnergyShieldRegainBasedOnMissingLife"
+          }
+        ]
+      },
+      {
+        "Name": "Druid43",
+        "Type": "Legendary Medium",
+        "MaxPoints": 1,
+        "Tier": 9,
+        "PrerequisiteTalent": "Druid38",
+        "StatModifiers": [
+          {
+            "attributeModifier": "DecreaseRegainInterval",
+            "Value": 20
+          }
+        ]
+      }
+    ]
+  }
+}
